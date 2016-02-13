@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
   <!-- if you like this site then why not create your own,need help then contact me -->
-  <title>Chetan Poojari</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geeksla -Technews,reviews,tutorials.</title>
+  <meta charset="utf-8"></meta>
+<meta name="language" content="english">
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<meta name="author" content="Geeksla"></meta>
+
+<meta name="description" content="Geeksla is a Technology based blog which tries to give best technology related stuff which would help the common man.">
+ 
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -14,6 +20,18 @@
   <link rel="stylesheet" href="chetanpoojari.github.io/demo.css">
 	<link rel="stylesheet" href="chetanpoojari.github.io/footer-distributed.css">
   <style>
+  .jumbotron { 
+    background-color:#39ac39;
+    color: #ffffff;
+	 padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
   img{
     
     cursor: pointer;
@@ -50,14 +68,7 @@ box-shadow:         0px 0px 30px 0px rgba(232, 0, 0, 0.67);
  }
  
   
-	.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
-
-.navbar li { color: #000 } 
-
+	
 h3{ 
    position: absolute; 
    top: 200px; 
@@ -65,67 +76,86 @@ h3{
    width: 100%; 
    color:#ffffff;
    }
+    .navbar {
+      margin-bottom: 0;
+      background-color:#39ac39;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #39ac39; !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+
+}
+.carousel-caption {
+  	position: absolute;
+  	right: 15%;
+  	bottom: 20px;
+  	left: 15%;
+  	z-index: 10;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	color: #fff;
+  	text-align: center;
+  	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	background-color: #e6ffe6;
+	}
   </style>
 </head>
 
 <body>
-<div class="navbar transparent navbar-inverse navbar-static-top hr">
-    <div class="navbar-brand logo"><font color="black">Chetan Poojari</font></div>
-    <div class="navbar-brand-right">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="/images/geekslalogo.jpg" class="img-responsive" height="100" width="150" ></a>
     </div>
-    <div class="container">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+			   <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-phone"></span>&nbsp;Technology</font></a></li>
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-            <ul class="nav navbar-nav mineul" style="font-size:17px;margin-top:9px; color:white;">
-			<div class="collapse navbar-collapse" id="navbar_collapse">
-          <ul class="nav navbar-nav">
-
-              <!-- Categories -->
-             <!-- <li class="dropdown"> 
-              <a href="#" class="dropdown-toggle" style="background-color:#ffffff" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <font  color="black"><span class="glyphicon glyphicon-tasks"></span>&nbsp; Categories </font> <span class="caret" style="color:black"></span></a>
-              <ul class="dropdown-menu">
-
-              <li class="hidden-xs"> <a href="/category/stories"> <font face="droid serif" size="3px" color="black"><b>TechNews</b> </font> </a> </li>
-             <li class="hidden-xs"> <a href="/category/views"> <font face="droid serif" size="3px" color="black"><b>Reviews </b></font> </a> </li>
-              <li class="hidden-xs"> <a href="/category/tutorials"> <font face="droid serif" size="3px" color="black"><b>Tips</b> </font> </a> </li>
-              <li class="hidden-xs"> <a href="/category/android"> <font face="droid serif" size="3px" color="black"><b>Security</b></font> </a> </li>
-
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/stories"> <font face="droid serif" size="3px" color="white"> TechNews </font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/views"> <font face="droid serif" size="3px" color="white">Reviews</font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/tutorials"> <font face="droid serif" size="3px" color="white">Tips</font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/android"> <font face="droid serif" size="3px" color="white">Security </font> </a> </li>
-
-              </ul>
-              </li>-->
-              <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-phone"></span>&nbsp;Technology</font></a></li>
-			   <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Tutorials</font></a></li>
-               <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-star"></span>&nbsp;Reviews</font></a></li>
-               <li><a href="contact.html"><font style="color:black"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact</font></a></li>
-			   <li><a href="about.html"><font style="color:black" ><span class="glyphicon glyphicon-bookmark"></span>&nbsp;About</font></a></li>
+			   <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Tutorials</font></a></li>
+               <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-star"></span>&nbsp;Reviews</font></a></li>
+               <li><a href="contact.html"><font size="4px" color="white"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact</font></a></li>
+			   <li><a href="about.html"><font size="4px" color="white"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;About</font></a></li>
             </ul>
 
         </div>
     </div>
-</div>
-<div class="container-fluid text-center" style="background-color: #8c8c8c">    
+</nav>
+<div class="jumbotron text-center">
+<h1>Your source for technology.</h1>
+    <h2>For Bloging, making money online, Wordpress and any Web related tips and tricks.</h2> <br>
+	<button type="button" class="btn btn-primary btn-lg">Subscribe</button>
+
+  </div>
+<div class="container-fluid text-center" style="background-color:none">    
   
-  <h2 style="text-align:center"><b><span class="glyphicon glyphicon-list-alt"></span> &nbsp;<font style="color:black" face="lato" >Featured Stuff</font></b></h2><br>
-  
+   <h2 style="text-align:center"><b><font style="color:#39ac39" face="lato" size="10px" >Featured Stuff</font></b></h2><br>
+  <hr style="height:5px;border:none;color:#39ac39;background-color:#39ac39;" />
   <div class="row">
     <div class="col-sm-4">
 	<a href="/post/secure-yourself-with-good-password.html">
 	  <div class="image-holder">
-      <img src="https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/11/1/1383306417607/Username-and-Password-on--008.jpg" alt="Image" width="350" height="300">
+      <img src="https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/11/1/1383306417607/Username-and-Password-on--008.jpg"class="img-rounded" alt="Secure with good password" width="380" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="black" size="6px">Secure yourself with good password.</h1>
+              <h1><font face="lato" color="black" size="5px">Secure yourself with good password.</h1>
 			 
             </div>
 	  </div>
@@ -134,9 +164,9 @@ h3{
     <div class="col-sm-4"> 
 		  <div class="image-holder">
     <a href="/post/how-to-increase-facebook-likes.html">
-      <img src="http://pixsym.com/wp-content/uploads/2011/02/facebook-like.jpg" alt="Image" width="350" height="300">
+      <img src="http://pixsym.com/wp-content/uploads/2011/02/facebook-like.jpg"class="img-rounded" alt="how to increse facebook likes" width="380" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="black" size="6px" >How to increase Facebook likes.</h1>
+              <h1><font face="lato" color="black" size="5px" >How to increase Facebook likes.</h1>
 			 
             </div>
     </div>
@@ -145,9 +175,9 @@ h3{
     <div class="col-sm-4"> 
 		  <div class="image-holder">
        <a href="/post/sennheiser-hd180-unboxing-and-review.html">
-      <img src="/images/sennheiser.JPG" alt="Image" width="350" height="300">
+      <img src="/images/sennheiser.JPG"class="img-rounded" alt="Sennheiser HD 180 review and first impression." width="380" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="white" size="6px">Sennheiser HD 180 review and first impression.</h1>
+              <h1><font face="lato" color="black" size="5px">Sennheiser HD 180 review and first impression.</h1>
 			 
             </div>
     </div>
@@ -156,16 +186,17 @@ h3{
 	
   </div>
 </div>
-<hr style="color=red">
+
 
 <div class="container text-center">    
-  
-<h2 style="text-align:left"><center><b> <span class="glyphicon glyphicon-list-alt"></span> &nbsp;<font style="color:black">Articles</font></b></center></h2><br>  
+  <h2 style="text-align:left"><center><b> <span class=""></span> &nbsp;<font style="color:#39ac39" size="10px">Articles</font></b></center></h2> 
+<hr style="height:5px;border:none;color:#39ac39;background-color:#39ac39;" />
+<br>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-6">
 	<a href="/post/How-to-download-youtube-videos.html">
 	  <div class="image-holder">
-      <img src="http://archiveteam.org/images/thumb/0/0a/Youtube_logo.jpg/800px-Youtube_logo.jpg" alt="Image" width="250" height="250">
+      <img src="http://archiveteam.org/images/thumb/0/0a/Youtube_logo.jpg/800px-Youtube_logo.jpg" alt="Image" width="450" height="300">
 	  <div class="carousel-caption">
               <h1><font face="lato" color="black" size="5px">How to download videos from Youtube</h1>
 			 
@@ -174,21 +205,21 @@ h3{
 	  </a>
     </div>
 	
-    <div class="col-sm-3"> 
+    <div class="col-sm-6"> 
 		<a href="#"> 
 		  <div class="image-holder">
-      <img src="images\star.jpg" alt="Image" width="250" height="250">
+      <img src="images\star.jpg" alt="Image" width="450" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="white" size="5x">2015: iPhone 6</h1>
+              <h1><font face="lato" color="black" size="5x">2015: iPhone 6</h1>
 			 
             </div>
     </div>
 	</a>
 	</div>
-    <div class="col-sm-3"> 
+    <div class="col-sm-6"> 
 		  <div class="image-holder">
 
-      <img src="images\star.jpg" alt="Image" width="250" height="250">
+      <img src="images\star.jpg" alt="Image" width="450" height="300">
 	  <div class="carousel-caption">
               <h1><font face="lato" color="white" size="5px" >2015: iPhone 6</h1>
 			 
@@ -196,7 +227,7 @@ h3{
     </div>
 	</div>
 	
-	<div class="col-sm-3"> 
+	<div class="col-sm-6"> 
 		  <div class="image-holder">
 
       <img src="images\star.jpg" alt="Image" width="250" height="250">
@@ -207,34 +238,34 @@ h3{
     </div>
 	</div>
 	
-	<div class="col-sm-3"> 
+	<div class="col-sm-6"> 
 		  <div class="image-holder">
 
       <img src="images\star.jpg" alt="Image" width="250" height="250">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="white" size="5px">2015: iPhone 6</h1>
+              <h1><font face="lato" color="black" size="5px">2015: iPhone 6</h1>
 			 
             </div>
     </div>
 	</div>
 	
-	<div class="col-sm-3"> 
+	<div class="col-sm-6"> 
 		  <div class="image-holder">
 
-      <img src="images\star.jpg" alt="Image" width="250" height="250">
+      <img src="images\star.jpg" alt="Image" width="450" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="white" size="5px">2015: iPhone 6</h1>
+              <h1><font face="lato" color="black" size="5px">2015: iPhone 6</h1>
 			 
             </div>
     </div>
 	</div>
 	
-	<div class="col-sm-3"> 
+	<div class="col-sm-6"> 
 		  <div class="image-holder">
 
-      <img src="images\star.jpg" alt="Image" width="250" height="250">
+      <img src="images\star.jpg" alt="Image" width="450" height="300">
 	  <div class="carousel-caption">
-              <h1><font face="lato" color="white" size="5px">2015: iPhone 6</h1>
+              <h1><font face="lato" color="black" size="5px">2015: iPhone 6</h1>
 			 
             </div>
     </div>
