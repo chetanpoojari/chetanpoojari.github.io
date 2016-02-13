@@ -3,8 +3,12 @@
 <head>
   <!-- if you like this site then why not create your own,need help then contact me -->
   <title>Chetan Poojari</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geeksla -Technews,reviews,tutorials.</title>
+  <meta charset="utf-8"></meta>
+<meta name="language" content="english">
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<meta name="author" content="Geeksla"></meta>
+<meta name="description" content="Geeksla is a Technology based blog which tries to give best technology related stuff which would help the common man.">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -26,12 +30,28 @@
  }
   
 	.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
+      margin-bottom: 0;
+      background-color:#39ac39;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #39ac39; !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
 
-.navbar li { color: #000 } 
+}
 
 h3{ 
    position: absolute; 
@@ -46,53 +66,29 @@ h3{
 </head>
 
 <body>
-<div class="navbar transparent navbar-inverse navbar-static-top hr">
-    <div class="navbar-brand logo"><font color="black">Chetan Poojari</font></div>
-    <div class="navbar-brand-right">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="/images/geekslalogo.jpg" class="img-responsive" height="100" width="150" ></a>
     </div>
-    <div class="container">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+			   <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-phone"></span>&nbsp;Technology</font></a></li>
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-        </div>
-        <div class="navbar-collapse collapse navbar-right">
-            <ul class="nav navbar-nav mineul" style="font-size:17px;margin-top:9px; color:white;">
-			<div class="collapse navbar-collapse" id="navbar_collapse">
-          <ul class="nav navbar-nav">
-
-              <!-- Categories -->
-               <!--<li class="dropdown"> 
-              <a href="#" class="dropdown-toggle" style="background-color:#ffffff" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <font  color="black"><span class="glyphicon glyphicon-tasks"></span>&nbsp; Categories </font> <span class="caret" style="color:black"></span></a>
-              <ul class="dropdown-menu">
-
-              <li class="hidden-xs"> <a href="/category/stories"> <font face="droid serif" size="3px" color="black"><b>TechNews</b> </font> </a> </li>
-           <li class="hidden-xs"> <a href="/category/views"> <font face="droid serif" size="3px" color="black"><b>Reviews </b></font> </a> </li> 
-              <li class="hidden-xs"> <a href="/category/tutorials"> <font face="droid serif" size="3px" color="black"><b>Tips</b> </font> </a> </li>
-              <li class="hidden-xs"> <a href="/category/android"> <font face="droid serif" size="3px" color="black"><b>Security</b></font> </a> </li>
-
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/stories"> <font face="droid serif" size="3px" color="white"> TechNews </font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/views"> <font face="droid serif" size="3px" color="white">Reviews</font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/tutorials"> <font face="droid serif" size="3px" color="white">Tips</font> </a> </li>
-              <li class="hidden-sm hidden-md hidden-lg"> <a href="/category/android"> <font face="droid serif" size="3px" color="white">Security </font> </a> </li>
-
-              </ul>
-              </li>-->
-               <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-phone"></span>&nbsp;Technology</font></a></li>
-
-			   <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Tutorials</font></a></li>
-               <li><a href="#"><font style="color:black"><span class="glyphicon glyphicon-star"></span>&nbsp;Reviews</font></a></li>
-               <li><a href="contact.html"><font style="color:black"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact</font></a></li>
-			   <li><a href="about.html"><font style="color:black" ><span class="glyphicon glyphicon-bookmark"></span>&nbsp;About</font></a></li>
+			   <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;Tutorials</font></a></li>
+               <li><a href="#"><font size="4px" color="white"><span class="glyphicon glyphicon-star"></span>&nbsp;Reviews</font></a></li>
+               <li><a href="contact.html"><font size="4px" color="white"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact</font></a></li>
+			   <li><a href="about.html"><font size="4px" color="white"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;About</font></a></li>
             </ul>
 
         </div>
     </div>
-</div>
+</nav>
 
 <div class="container" style="margin-bottom:55px">
     <div class="post">
